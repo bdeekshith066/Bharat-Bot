@@ -1,10 +1,9 @@
-
 import streamlit as st
 import openai
 from googletrans import Translator
 
 # Set your OpenAI API key
-openai.api_key = 'Your openai api key' # Insert your OpenAI API key here
+openai.api_key = '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' # Insert your OpenAI API key here
 
 # Typing animation HTML code with "Project by Deekshith B"
 typing_animation = """
@@ -97,18 +96,14 @@ supported_languages = {
 }
 
 # Main function
-def main():
-    st.title("Bharat Bot 🇮🇳🤖")  
-    st.write("Bharat Bot understands and supports all Indian languages")
 
-    input_lang = st.selectbox("Choose your input language:", list(supported_languages.keys()), format_func=lambda x: f"{x} - {supported_languages[x]}")
-    output_lang = st.selectbox("Choose your output language:", list(supported_languages.keys()), format_func=lambda x: f"{x} - {supported_languages[x]}")
-
-    user_input = st.text_input("How can I assist you today?")
 
 def main():
     st.title("Bharat Bot 🇮🇳🤖")  
-    st.write("Bharat Bot understands and supports all Indian languages")
+    col1, col2 = st.columns([2, 1])
+    col1.write("Bharat Bot connects people across India by comprehending")
+    col2.image("https://www.ccjk.com/wp-content/uploads/2021/03/How-many-languages-are-spoken-in-India.png",caption="Unity in Diversity", width=200)
+    col1.write("and embracing the diverse spectrum of Indian languages.")
 
     input_lang = st.selectbox("Choose your input language:", list(supported_languages.keys()), format_func=lambda x: f"{x} - {supported_languages[x]}")
     output_lang = st.selectbox("Choose your output language:", list(supported_languages.keys()), format_func=lambda x: f"{x} - {supported_languages[x]}")
