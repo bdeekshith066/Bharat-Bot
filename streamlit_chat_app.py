@@ -3,7 +3,7 @@ import openai
 from googletrans import Translator
 
 # Set your OpenAI API key
-openai.api_key = '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' # Insert your OpenAI API key here
+openai.api_key = 'enter your openai apii key' # Insert your OpenAI API key here
 
 # Typing animation HTML code with "Project by Deekshith B"
 typing_animation = """
