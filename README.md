@@ -48,7 +48,7 @@ Contributions are welcome! If you have any suggestions, bug fixes, or enhancemen
 - Unity in Diversity image: [CCJK Technologies](https://www.ccjk.com/wp-content/uploads/2021/03/How-many-languages-are-spoken-in-India.png)
 
 ## Author
-Deekshith B
+- [Deekshith B](https://www.linkedin.com/in/deekshith2912/)
 
 ## License
 
