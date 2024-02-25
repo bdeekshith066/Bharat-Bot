@@ -1,3 +1,5 @@
+![delete img](https://github.com/bdeekshith066/Made-for-India-Bot-/assets/130782878/c8ff414b-986b-4e0c-b43b-68ff28cdf7d2)
+
 # Bharat Bot 🇮🇳🤖
 
 Bharat Bot is a Streamlit web application that connects people across India by comprehending and embracing the diverse spectrum of Indian languages.
